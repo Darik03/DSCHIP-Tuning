@@ -1,0 +1,231 @@
+html, body{
+    padding: 0px;
+    margin: 0px;
+
+}
+.navbar{
+    background-color: #19191f;
+    display: flex;
+    justify-content: center;
+}
+.nav-menu .nav-item{
+    font-size: 25px;
+    margin: 10px;
+    display: inline;
+    padding: 10px 15px;
+}
+
+.nav-menu .nav-item a{
+    text-decoration: none;
+    color: white;
+}
+.nav-menu .nav-item a:hover{
+    color: #5d28dd;
+}
+.top {
+    background-color: #19191f;
+}
+.top img{
+    width: 30%;
+    display: block;
+    margin: auto;
+}
+
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.heroimage {
+    background-image: url('/img/heroimage.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 45vh;
+}
+
+.heroimage h3{
+    color: white;
+    font-size: 40px;
+    position: relative;
+    text-align: center;
+    margin: auto;
+    top: 200px;
+}
+.right{
+    text-align: center;
+}
+
+.right h3{
+    font-size: 40px;
+    color: black;
+}
+.right p{
+    color: black;
+    font-size: 30px;
+    width: 800px;
+    margin: auto;
+}
+
+
+.prvideo .slika1 img{
+    display: block;
+    margin: auto;
+    border-radius: 40px;
+    width: 50%;
+    padding:20px;
+}
+.prvideo .slika1-text{
+    margin: auto;
+    text-align: center;
+    align-items: center;
+}
+.slika1-text h2{
+    font-size: 40px;
+    width: 600px;
+    margin: auto;
+}
+.slika1-text p{
+    width: 600px;
+    font-size: 30px;
+    margin: auto;
+}
+
+.slika1-text p:hover{
+    background-color: #19191f;
+    border-radius: 20px;
+    color: white;
+    transition: 0.3s ease;
+}
+
+
+.bottom{
+    background-color:#19191f;
+    width: 100%;
+    height: 200px;
+
+}
+.slika2 img{
+   width: 50%;
+   display: block;
+   margin: auto;
+    border-radius: 40px;
+    padding: 20px;
+}
+
+.slika2 .slika2-text h2{
+    margin: auto;
+    font-size: 35px;
+    width: 800px;
+}
+
+.slika2 .slika2-text p{
+    margin: auto;
+    width: 600px;
+    font-size: 30px;
+    padding: 20px
+}
+
+.bottom-ikonice{
+    width: 100%;
+    text-align: center;
+    font-size: 40;
+    padding: 20px 0px;
+    position: relative;
+    top: 110px;
+    color: white;
+}
+
+.forma{
+    padding: 20px;
+    text-align: center;
+    background-color:red;
+    border-radius: 20px;
+    width: 500px;
+    margin: 40px auto;
+    animation-name: animacija;
+    animation-duration: 4s ;
+    animation-iteration-count: infinite;
+
+}
+.forma p{
+    font-size: 20px;
+}
+
+.forma input{
+    width: 190px;
+}
+
+.forma textarea{
+    width: 200px;
+    height: 70px;
+}
+.posaljite-poruku{
+    text-align: center;
+}
+.dugme{
+    margin: 20px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.dugme:hover{
+    background-color: #19191f;
+    color: white;
+}
+.onama{
+text-align: center;
+}
+.onama p{
+    font-size: 20px;
+    width: 700px;
+    margin: auto;
+    text-align: center;
+}
+@media screen and (min-width:320px) and (max-width:425px){
+    .top{
+        width: 100%;
+        padding: 0px;
+    }
+    .nav-menu{
+        display: block;
+        padding: 0px;
+        width: 100%;
+        text-align: center;
+    }
+    .nav-menu .nav-item{
+        font-size: 15px;
+        margin: 5px;
+    }
+
+    .forma{
+        width: 70%;
+        text-align: center;
+    }
+}
+@media screen and (min-width:768px) and (max-width:1024px){
+    .top{
+        width: 100%;
+        padding: 0px;
+    }
+    .nav-menu{
+        display: block;
+        padding: 0px;
+        width: 100%;
+        text-align: center;
+    }
+    .nav-menu .nav-item{
+        font-size: 20px;
+        margin: 5px;
+    }
+
+    .forma{
+        width: 70%;
+        text-align: center;
+    }
+}
+
+@keyframes animacija{
+    0% {background-color: red;}
+    50% {background-color: blue;}
+    100% {background-color: red;}
+
+}
