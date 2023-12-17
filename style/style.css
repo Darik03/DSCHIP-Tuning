@@ -36,7 +36,7 @@ html, body{
 }
 
 .heroimage {
-    background-image: url('img/heroimage.jpg');
+    background-image: url('/img/heroimage.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     height: 45vh;
